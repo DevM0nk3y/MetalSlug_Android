@@ -1,15 +1,10 @@
 package com.devm0nk3y.metalslug
 
-import android.media.MediaPlayer
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var track: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,47 +12,47 @@ class MainActivity : AppCompatActivity() {
 
         val reproductor = Reproductor(this)
 
-        val heavyButton = findViewById<TextView>(R.id.heavy)
+        val heavyButton = findViewById<Button>(R.id.heavy)
         heavyButton.setOnClickListener {
             reproductor.playAudio("heavy")
         }
 
-        val rocketButton = findViewById<TextView>(R.id.rocket)
+        val rocketButton = findViewById<Button>(R.id.rocket)
         rocketButton.setOnClickListener {
             reproductor.playAudio("rocket")
         }
 
-        val flameButton = findViewById<TextView>(R.id.flame)
+        val flameButton = findViewById<Button>(R.id.flame)
         flameButton.setOnClickListener {
             reproductor.playAudio("flame")
         }
 
-        val laserButton = findViewById<TextView>(R.id.laser)
+        val laserButton = findViewById<Button>(R.id.laser)
         laserButton.setOnClickListener {
             reproductor.playAudio("laser")
         }
 
-        val shotButton = findViewById<TextView>(R.id.shot)
+        val shotButton = findViewById<Button>(R.id.shot)
         shotButton.setOnClickListener {
             reproductor.playAudio("shot")
         }
 
-        val enemyButton = findViewById<TextView>(R.id.enemy)
+        val enemyButton = findViewById<Button>(R.id.enemy)
         enemyButton.setOnClickListener {
             reproductor.playAudio("enemy")
         }
 
-        val ironButton = findViewById<TextView>(R.id.iron)
+        val ironButton = findViewById<Button>(R.id.iron)
         ironButton.setOnClickListener {
             reproductor.playAudio("iron")
         }
 
-        val dropButton = findViewById<TextView>(R.id.drop)
+        val dropButton = findViewById<Button>(R.id.drop)
         dropButton.setOnClickListener {
             reproductor.playAudio("drop")
         }
 
-        val granadeButton = findViewById<TextView>(R.id.granade)
+        val granadeButton = findViewById<Button>(R.id.granade)
         granadeButton.setOnClickListener {
             reproductor.playAudio("granade")
         }

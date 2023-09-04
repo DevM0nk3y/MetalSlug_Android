@@ -1,3 +1,16 @@
 <resources>
+
     <string name="app_name">MetalSlug</string>
+
+    <string name="HEAVY_BUTTON">heavyButton</string>
+    <string name="ROCKET_BUTTON">rocketButton</string>
+    <string name="FLAME_BUTTON">flameButton</string>
+    <string name="LASER_BUTTON">laserButton</string>
+    <string name="SHOT_BUTTON">shotButton</string>
+    <string name="ENEMY_BUTTON">enemyButton</string>
+    <string name="IRON_BUTTON">ironButton</string>
+    <string name="DROP_BUTTON">dropButton</string>
+    <string name="GRANADE_BUTTON">granadeButton</string>
+    <string name="IMAGE">imagen</string>
+
 </resources>

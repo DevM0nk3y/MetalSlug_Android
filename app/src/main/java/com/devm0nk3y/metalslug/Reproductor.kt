@@ -10,7 +10,7 @@ import android.media.MediaPlayer
 //  Created by Abel Lazaro on 02/09/23.
 //
 
-class Reproductor(val context: Context) {
+class Reproductor(private val context: Context) {
 
     private lateinit var mediaPlayer: MediaPlayer
 
