@@ -3,12 +3,15 @@ package com.devm0nk3y.metalslug
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        window.statusBarColor = ContextCompat.getColor(this, R.color.background)
 
         val reproductor = Reproductor(this)
 
